@@ -1,0 +1,164 @@
+body { 
+background-image: url(2.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+font-family: Courier New;
+}
+
+header{
+width:100%;
+height:200px;
+}
+
+ul {
+list-style-type: none;
+margin: 0px 50px 0px 0px;
+padding: 0px;
+width: 150px;
+float:right;
+}
+
+li a {
+display: block;
+text-decoration: none;
+color: black;
+padding: 15px 20px;
+border-radius: 12px;
+}
+
+li {
+text-align: center;
+border-bottom: 1px solid #555;
+font-size: 20px;
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 150px;
+z-index: 1;
+border-radius: 12px;
+}
+
+li a:hover:not(.active) {
+background-color: violet;
+color: white;
+transition-duration: 1.5s;
+}
+
+.active {
+background-color: violet;
+color: white;
+padding: 15px 20px;
+font-size: 20px;
+border: none;
+cursor: pointer;
+font-family: Courier New;
+width: 150px;
+border-radius: 12px;
+}
+
+.active:hover {
+background-color: white;
+color: black;
+transition-duration: 1.5s;
+}
+
+ul:hover li {
+display: block;
+}
+
+h1{
+color: white;
+text-align:center;
+font-size: 48px;
+cursor: pointer;
+}
+
+h2{
+color: white;
+text-align:center;
+}
+
+.first {
+padding: 50px 0px 0px 0px;
+width: 100%;
+
+}
+
+.second {
+padding: 50px 0px 0px 0px;
+width: 100%;
+}
+
+.third {
+padding: 50px 0px 0px 0px;
+width: 100%;
+}
+
+.fourth{
+width: 100%;
+float:right;
+padding: 0px 0px 20px 0px;
+}
+
+img {
+width: 30%;
+height: 30%;
+padding: 20px 0px 50px 0px;
+}
+
+p{
+font-size: 40px;
+color: white;
+text-align: center;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 25em;
+}
+
+span{
+font-weight: bolder;
+cursor: pointer;
+}
+
+span:hover, h1:hover{
+color: violet;
+transition-duration: 1.5s;
+}
+
+table{
+width: 100%;
+margin: 75px 0px 50px 0px;
+}
+
+table, th, td{
+border: 0px solid black;
+border-collapse: collapse;
+}
+
+th{
+  padding: 0;
+}
+
+th a:hover{
+cursor: pointer;
+}
+
+td{
+color: white;
+text-align: center;
+padding: 0;
+font-size: 30px;
+}
+
+td:hover{
+color: violet;
+transition-duration: 1s;
+}
+
+h3{
+font-size: 40px;
+color: white;
+margin: 50px 0px 0px 50px;
+}
